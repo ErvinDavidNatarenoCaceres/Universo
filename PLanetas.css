@@ -1,0 +1,61 @@
+.{
+    padding: 0px;
+    width: 0px;
+    background-color: aqua;
+}
+.Titulo{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.boton1{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: row;
+}
+.boton1{
+display: block;
+background-color: green;
+width: 80px;
+padding: 10px 40px 10px 40px;
+border-radius: 20px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+    
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);   
+}
+.boton1:hover{
+    background-color: green;
+    color: black;
+    width: 120px;
+    transition: 0.3s;
+}
+.planetas{
+    margin: auto;
+}
+
+.imagenes cosmo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.planetas_img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 40px;
+
+}
+
+.planetas_img:hover{
+    background-color: navajowhite;
+}

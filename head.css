@@ -1,0 +1,62 @@
+.{
+    padding: 0px;
+    width: 0px;
+    background-color: aqua;
+}
+.Amigo{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.boton3{
+    display: flex;
+    flex-direction: row;
+}
+.boton3{
+display: block;
+background-color: green;
+width: 80px;
+padding: 10px 40px 10px 40px;
+border-radius: 20px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+    
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);   
+}
+.boton3:hover{
+    background-color: green;
+    color: black;
+    width: 120px;
+    transition: 0.3s;
+}
+body{
+    margin: auto;
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_li{
+    background-color: #fff;
+}
+.contenedor_lunas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.lunas_img{
+    width: 150px;
+    height: 150px;
+    border: gray solid 3px;
+    border-radius: 20px;
+}
+
+.lunas_img:hover{
+    background-color: gray;
+}
