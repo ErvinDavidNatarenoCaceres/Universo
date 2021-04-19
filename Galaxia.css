@@ -44,10 +44,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .cebra{
     width: 400px;
-    margin-left: 20px;
+    margin-left: 30px;
     border: #4A4242 solid 2px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .ballena{

@@ -7,6 +7,11 @@
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 50px;
+    background-color: black;
+    color: white;
+}
+.main_lunas{
+    background-color: black;
 }
 .boton3{
     display: flex;
@@ -41,13 +46,12 @@ body{
 }
 
 .nav_li{
-    background-color: #fff;
+    background-color:;
 }
 .contenedor_lunas{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 .lunas_img{
